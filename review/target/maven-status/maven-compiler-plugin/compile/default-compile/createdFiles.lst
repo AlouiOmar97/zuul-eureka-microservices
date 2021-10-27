@@ -1,0 +1,7 @@
+tn\esprit\spring\entities\Review.class
+tn\esprit\spring\controller\RestControlReview.class
+tn\esprit\spring\ReviewApplication.class
+tn\esprit\spring\entities\Rating.class
+tn\esprit\spring\services\ReviewServiceImpl.class
+tn\esprit\spring\repository\ReviewRepository.class
+tn\esprit\spring\services\IReviewService.class

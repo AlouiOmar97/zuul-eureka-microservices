@@ -1,0 +1,7 @@
+D:\microservice\docker\animal\src\main\java\tn\esprit\spring\AnimalApplication.java
+D:\microservice\docker\animal\src\main\java\tn\esprit\spring\repository\AnimalProductRepository.java
+D:\microservice\docker\animal\src\main\java\tn\esprit\spring\controller\RestControlAnimalProduct.java
+D:\microservice\docker\animal\src\main\java\tn\esprit\spring\entities\AnimalProduct.java
+D:\microservice\docker\animal\src\main\java\tn\esprit\spring\services\AnimalProductServiceImpl.java
+D:\microservice\docker\animal\src\main\java\tn\esprit\spring\entities\Category.java
+D:\microservice\docker\animal\src\main\java\tn\esprit\spring\services\IAnimalProductService.java

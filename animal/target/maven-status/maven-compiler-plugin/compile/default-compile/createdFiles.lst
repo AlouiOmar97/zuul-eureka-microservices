@@ -1,0 +1,7 @@
+tn\esprit\spring\entities\AnimalProduct.class
+tn\esprit\spring\services\IAnimalProductService.class
+tn\esprit\spring\repository\AnimalProductRepository.class
+tn\esprit\spring\entities\Category.class
+tn\esprit\spring\services\AnimalProductServiceImpl.class
+tn\esprit\spring\controller\RestControlAnimalProduct.class
+tn\esprit\spring\AnimalApplication.class

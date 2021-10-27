@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8095
+ADD /target/Animal-0.0.1-SNAPSHOT.jar Animal.jar
+ENTRYPOINT ["java", "-jar", "Animal.jar"]
