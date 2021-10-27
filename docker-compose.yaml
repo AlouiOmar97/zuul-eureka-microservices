@@ -62,6 +62,36 @@ services:
       - .m2:/root/.m2
     stdin_open: true
     tty: true
+  animal:
+    image: animal-service
+    container_name: animal-service  
+    build:
+      context: ./microService1
+      dockerfile: Dockerfile
+    environment: 
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8085:8085"
+  blog:
+    image: blog-service
+    container_name: blog-service  
+    build:
+      context: ./microService3
+      dockerfile: Dockerfile
+    environment: 
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8086:8086"
+  plante-accesoire:
+    image: plante-accesoire-service
+    container_name: plante-accesoire-service  
+    build:
+      context: ./microService2
+      dockerfile: Dockerfile
+    environment: 
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8087:8087"  
   review:
     depends_on:
       - discovery
@@ -101,8 +131,7 @@ services:
       - DB_NAME=store
       - DB_PORT=
     stdin_open: true
-    tty: true
-   
+    tty: true   
 
 volumes:
   db:
