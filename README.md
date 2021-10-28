@@ -1,7 +1,8 @@
 # SPRING BOOT MICROCSERVICE USING EUREKA, ZUUL
  
-This project is created to get experience on **Microservices With Eureka & Zuul**. This is a simple project by coded imperative programming with simple business requirements.
- 
+This project is created to get experience on **Microservices With Eureka & Zuul**.
+
+
 ## There are nine microservices:
  
 - **animal** : This microservice is responsible for managing animals sales
@@ -37,9 +38,7 @@ This project is created to get experience on **Microservices With Eureka & Zuul*
 
  
 URI for gateway : *http://localhost:9999*
- 
-## Used Netflix OSS:
- 
+  
 - **Netflix Eureka** is used for discovery service.
  
 - **Netflix Zuul** is used for gateway.
@@ -72,22 +71,11 @@ In docker-compose.yml file:
 
 
 ## VERSIONS
- 
- 
-### 1.3.0
-- Update Spring Boot version to 2.5.1
-- Switch to Spring Boot Gateway
- 
- 
-### 1.0.0 SNAPSHOT
- 
-- Spring-Boot 2.3.1.RELEASE
-- Java 8
-- Docker Image updated
- 
-### 0.0.1
- 
+  
 - Spring-Boot 2.1.9.RELEASE
 - Java 8
+- Docker Image updated
+- Docker compose version 3.8 
+
 
 
