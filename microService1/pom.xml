@@ -11,7 +11,7 @@
 	<groupId>com.esprit.microservices.candidate</groupId>
 	<artifactId>Animal-service</artifactId>
 	<version>1.0</version>
-	<name>Candidate5Twin3Semaine3</name>
+	<name>animal</name>
 	<description>Project for candidate Microservice</description>
 
 	<properties>

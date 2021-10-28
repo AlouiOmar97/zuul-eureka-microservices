@@ -63,35 +63,74 @@ services:
     stdin_open: true
     tty: true
   animal:
-    image: animal-service
-    container_name: animal-service  
+    image: animal-service  
     build:
       context: ./microService1
       dockerfile: Dockerfile
     environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
     ports:
-      - "8085:8085"
+      - "8185:8185"
   blog:
     image: blog-service
-    container_name: blog-service  
     build:
       context: ./microService3
       dockerfile: Dockerfile
     environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
     ports:
-      - "8086:8086"
+      - "8186:8186"
   plante-accesoire:
-    image: plante-accesoire-service
-    container_name: plante-accesoire-service  
+    image: plante-accesoire-service  
     build:
       context: ./microService2
       dockerfile: Dockerfile
     environment: 
       - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
     ports:
-      - "8087:8087"  
+      - "8187:8187"  
+  tasks-ws:
+    
+    build:
+      context: ./GestionEmploye
+      dockerfile: Dockerfile
+    environment: 
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "1202:1202"  
+  
+  employe-ws:
+    
+    build:
+      context: ./GestionTasks
+      dockerfile: Dockerfile
+    environment: 
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "1302:1302"  
+  
+  plante-service:
+    
+    build:
+      context: ./microServicePlante
+      dockerfile: Dockerfile
+    environment: 
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8086:8086"  
+
+
+  image-upload-service:
+    
+    build:
+      context: ./imageUploadService
+      dockerfile: Dockerfile
+    environment: 
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8085:8085"  
+  
+
   review:
     depends_on:
       - discovery

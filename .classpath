@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="animal/.mvn/wrapper"/>
+	<classpathentry kind="src" path="animal/src/main/java"/>
+	<classpathentry kind="src" path="eureka/.mvn/wrapper"/>
+	<classpathentry kind="src" path="eureka/src/main/java"/>
+	<classpathentry kind="src" path="eureka/src/test/java"/>
+	<classpathentry kind="src" path="microService1/.mvn/wrapper"/>
+	<classpathentry kind="src" path="microService1/src/main/java"/>
+	<classpathentry kind="src" path="microService1/src/test/java"/>
+	<classpathentry kind="src" path="microService2/.mvn/wrapper"/>
+	<classpathentry kind="src" path="microService2/src/main/java"/>
+	<classpathentry kind="src" path="microService3/.mvn/wrapper"/>
+	<classpathentry kind="src" path="microService3/src/main/java"/>
+	<classpathentry kind="src" path="microService3/src/test/java"/>
+	<classpathentry kind="src" path="review/.mvn/wrapper"/>
+	<classpathentry kind="src" path="review/src/main/java"/>
+	<classpathentry kind="src" path="zuul/src/main/java"/>
+	<classpathentry kind="lib" path="animal/target/Animal-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="review/target/Review-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="zuul/target/zuul-proxy-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="animal/target/classes"/>
+</classpath>
