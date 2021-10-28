@@ -21,15 +21,20 @@ This project is created to get experience on **Microservices With Eureka & Zuul*
 
 ### Gateways ###
  
-| Service                    | EndPoint                                  |
-| -------------------------- | :---------------------------------------: |
-| Animal Service             |  /animalservice/**                        |
-|animal Product Service      | **/account**/api/v1/accounts              |
-| Products                   | **/product**/api/v1/products/{id}         |
-| Products                   | **/product**/api/v1/products              |
-| Orders                     | **/order**/api/v1/orders/{id}             |
-| Orders                     | **/order**/api/v1/orders                  |
-| Backoffice                 | **/backoffice**/api/v1/backoffice/orders  |
+| Service                      | EndPoint                                  |
+| -----------------------------| :---------------------------------------: |
+| Animal Service               |  /animalservice/**                        |
+| Animal Product Service       |  /animalservice/**                        |
+| Review Service               |  /review/**                               |
+| payments Service             | /payments/**             |
+| blog Service                 | /blog-service/**             |
+| plante-accesoire Service     |  /planteaccessoireservice/**                  |
+| tasks-ws Service             | /tasks-ws/**  |
+| employes-ws Service          | /employe-ws/**  |
+| plante-service Service       |/plante-service/**  |
+| image-upload-service Service | /image-upload-service/**  |
+
+
  
 URI for gateway : *http://localhost:9999*
  
