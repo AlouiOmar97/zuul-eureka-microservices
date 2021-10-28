@@ -2,7 +2,7 @@
  
 This project is created to get experience on **Microservices With Eureka & Zuul**. This is a simple project by coded imperative programming with simple business requirements.
  
-## There are four microservices:
+## There are nine microservices:
  
 - **animal** : This microservice is responsible for managing animals sales
 - **animal product** : This microservice is responsible for managing animal products.
